@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iklan Tas Kulit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tas Kulit Premium</h1>
+            <p>Elegan, Tahan Lama, dan Bergaya</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="container">
+                <h2>Kenapa Memilih Tas Kulit Kami?</h2>
+                <p>Tas kulit kami dirancang dengan bahan berkualitas tinggi, jahitan presisi, dan gaya modern yang cocok untuk berbagai kebutuhan Anda.</p>
+                <ul>
+                    <li>Bahan 100% kulit asli</li>
+                    <li>Garansi 1 tahun</li>
+                    <li>Diskon spesial untuk pemesanan hari ini</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <h2>Galeri Produk</h2>
+                <div class="images">
+                    <img src="tas1.jpg" alt="Tas Model 1">
+                    <img src="tas2.jpg" alt="Tas Model 2">
+                    <img src="tas3.jpg" alt="Tas Model 3">
+                </div>
+            </div>
+        </section>
+
+        <section class="payment-form">
+            <div class="container">
+                <h2>Formulir Pembayaran</h2>
+                <form id="paymentForm">
+                    <label for="name">Nama Lengkap:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="address">Alamat Pengiriman:</label>
+                    <textarea id="address" name="address" required></textarea>
+
+                    <label for="product">Pilih Tas:</label>
+                    <select id="product" name="product">
+                        <option value="tas1">Tas Model 1 - Rp500,000</option>
+                        <option value="tas2">Tas Model 2 - Rp550,000</option>
+                        <option value="tas3">Tas Model 3 - Rp600,000</option>
+                    </select>
+
+                    <label for="payment">Metode Pembayaran:</label>
+                    <select id="payment" name="payment">
+                        <option value="transfer">Transfer Bank</option>
+                        <option value="cod">Cash on Delivery (COD)</option>
+                    </select>
+
+                    <button type="submit">Kirim Pesanan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tas Kulit Premium. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
